@@ -548,7 +548,7 @@ blockquote footer{background:none;padding:0}
 .linkcard:hover{border-color:var(--brand);transform:translateY(-2px)}
 .linkcard .icon{width:16px;height:16px;color:var(--brand-dp);flex:0 0 auto}
 .call-pill .num{white-space:nowrap}
-.nav-links a{white-space:nowrap}@media(max-width:1060px){.nav-links{display:none}.burger{display:block}}.mobile-menu{overflow-y:auto;overscroll-behavior:contain}.area-right{isolation:isolate}a.chip{text-decoration:none}
+.nav-links a{white-space:nowrap}@media(max-width:1060px){.nav-links{display:none}.burger{display:block}}.mobile-menu{overflow-y:auto;overscroll-behavior:contain}.area-right{isolation:isolate}a.chip{text-decoration:none}.call-pill .num{white-space:nowrap}.call-pill svg{flex:0 0 auto}@media(max-width:400px){.brand .logo-img{width:72px}.nav-inner{gap:10px}.nav-cta{gap:6px}.call-pill{padding:10px 11px;gap:7px}.burger{padding:4px}}
 .cta-band{background:var(--ink);color:#fff;border-radius:var(--r-lg);padding:clamp(22px,4vw,34px);margin-top:36px}
 .cta-band h2{margin:0 0 8px !important;color:#fff !important}
 .cta-band p{color:var(--on-ink-2) !important}
