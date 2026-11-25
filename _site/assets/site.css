@@ -520,6 +520,11 @@ footer h4{font-family:var(--display);font-weight:700;color:var(--brand-lt);font-
   .hero-slide{transition:opacity 1.2s ease!important}
   .map-base::after{animation:mapPulse 2.4s ease-out infinite!important}
 }
+.f-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.ci-nums{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 22px;margin-top:3px}
+.ci-nums a{display:block}
+.ci-nums a span{display:block;font-family:var(--body);font-weight:500;font-size:.8rem;color:var(--muted)}
+@media(max-width:400px){.ci-nums{grid-template-columns:1fr}}
 
 blockquote footer{background:none;padding:0}
 .page-head{padding:calc(74px + 64px) 0 64px;background:linear-gradient(90deg,rgba(var(--ink-rgb),.93) 0%,rgba(var(--ink-rgb),.8) 50%,rgba(var(--ink-rgb),.55) 100%),var(--ink) url('page-hero.webp') center 40%/cover;color:#fff;position:relative}

@@ -59,6 +59,7 @@ if(document.querySelector("#quoteForm")){
     e.preventDefault();
     var f = e.target;
     var v = function(k){ return (f.elements[k] && f.elements[k].value || "").trim(); };
+    if (f.elements.botcheck && f.elements.botcheck.checked) return;
     if (!v("name") || !v("phone")){
       var bad = !v("name") ? f.elements.name : f.elements.phone;
       bad.focus();
